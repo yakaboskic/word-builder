@@ -1,0 +1,6 @@
+node_modules/
+examples/
+*.docx
+*.log
+.DS_Store
+dist/

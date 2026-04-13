@@ -1,0 +1,20 @@
+{
+  "name": "word-builder",
+  "version": "0.1.0",
+  "description": "Generate Word documents from a template + JS/TS/Markdown content",
+  "scripts": {
+    "word-builder": "tsx src/cli.ts",
+    "extract": "tsx src/cli.ts extract",
+    "build": "tsx src/cli.ts build",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "marked": "^15.0.7",
+    "pizzip": "^3.1.7"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}
